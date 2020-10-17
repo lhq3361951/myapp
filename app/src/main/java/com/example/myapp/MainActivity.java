@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.myapp.activity.LoginActivity;
+import com.example.myapp.activity.RegisterActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,5 +28,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+        btnRegister = findViewById(R.id.btn_register);
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Re = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(Re);
+            }
+        });
+
     }
+
+
 }

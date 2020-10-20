@@ -37,10 +37,11 @@
                     android:layout_height="25dp"
                     android:src="@mipmap/account"/>
                 <EditText
+                    android:id="@+id/etAccount"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/account_hint"
+                    android:hint="@string/account_hint"
                     android:textColorHint="#bcbcbc"
                     android:textColor="#000000"
                     android:background="@null"
@@ -67,10 +68,11 @@
                     android:layout_height="25dp"
                     android:src="@mipmap/pwd"/>
                 <EditText
+                    android:id="@+id/etPwd"
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pwd_hint"
+                    android:hint="@string/pwd_hint"
                     android:textColorHint="#bcbcbc"
                     android:textColor="#000000"
                     android:background="@null"
@@ -80,10 +82,16 @@
 
             </LinearLayout>
 
-
+            <View
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e8e7e7"/>
 
         </LinearLayout>
         <Button
+            android:id="@+id/btnLogin"
             android:layout_marginLeft="18dp"
             android:layout_marginRight="18dp"
             android:layout_width="match_parent"

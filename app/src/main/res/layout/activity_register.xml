@@ -40,13 +40,11 @@
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/account_hint"
+                    android:hint="@string/account_hint"
                     android:textColorHint="#bcbcbc"
                     android:textColor="#000000"
                     android:background="@null"
-                    android:textSize="18sp"
-
-                    />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -70,13 +68,11 @@
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pwd_hint"
+                    android:hint="@string/pwd_hint"
                     android:textColorHint="#bcbcbc"
                     android:textColor="#000000"
                     android:background="@null"
-                    android:textSize="18sp"
-
-                    />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -87,12 +83,12 @@
             android:layout_marginLeft="18dp"
             android:layout_marginRight="18dp"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="@dimen/dimen_55dp"
             android:background="@drawable/shape_big_login_btn"
             android:textColor="#ffffff"
             android:text="@string/register"
             android:textSize="24sp"
-            android:layout_marginTop="67dp"/>
+            android:layout_marginTop="@dimen/dimen_67dp"/>
 
     </LinearLayout>
 
